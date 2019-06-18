@@ -1,0 +1,5 @@
+/**
+ * yct
+ */
+export default {
+};

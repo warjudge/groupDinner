@@ -1,0 +1,34 @@
+/*
+* @name:
+* @description:
+* @Author: huifen.ling
+* @Date: 2018-10-13 18:22:49
+ * @Last Modified by: huifen.ling
+ * @Last Modified time: 2018-10-14 16:34:03
+*/
+@import '../../css/root.css';
+
+.bill-item {
+  padding: .33rem .4rem;
+  margin-bottom: .25rem;
+}
+.hd-title {
+  line-height: .53rem;
+  color: var(--g-color-dark-black);
+}
+.bill-type {
+  font-size: var(--g-sm-font-size);
+  line-height: .44rem;
+}
+.number {
+  font-size: var(--g-title);
+  line-height: var(--g-title);
+  font-weight: 600;
+}
+.bill-time {
+  display: block;
+  margin-top: .24rem;
+  line-height: .44rem;
+  font-size: var(--g-sm-font-size);
+  color: var(--g-color-grey);
+}

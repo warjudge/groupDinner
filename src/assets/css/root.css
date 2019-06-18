@@ -1,0 +1,81 @@
+:root {
+	--bgc-levelone:#4391E8;/*蓝*/
+	--bgc-leveltwo:#3878C0;/*深蓝*/
+	--bgc-grey: #979797;
+	--bgc-warn:#EDA72C;/*棕黄*/
+	--bgc-white: #F6F8FA;
+	--bgc-dailog-cover:rgba(0,0,0,0.5);
+
+	--g-color-white: #fff;
+	--g-color-dark-black: #222;
+	--g-color-black: #444;
+	--g-color-grey: #777;
+	--g-color-red: #F9205F;
+	--g-color-green: #27C06B;
+	--g-color-blue: #4693EA;
+
+	--font-color-title: #fff;
+	--font-color-correct: #27C06B;/*嫩绿*/	
+	--font-color-error: #F81557;/*红*/	
+	--font-color-tip: #F2F600;/*明黄*/	
+
+	--g-sm-font-size: .32rem;
+	--g-md-font-size: .35rem;
+	--g-font-size: .37rem;
+	--g-lg-font-size: .43rem;
+	--g-xs-font-size: .48rem;
+
+	--g-title: .64rem;
+	--g-lg-title: .69rem;
+
+	--g-border-radius: .37rem;
+
+	/* 渐变 */
+	--blue-vertical-linear: linear-gradient(180deg,rgba(187,228,255,1) 0%,rgba(21,131,255,1) 100%);
+	--blue-horizontal-linear: linear-gradient(90deg,rgba(95,177,255,1) 0%,rgba(92,139,241,1) 100%);
+	/* box-shadow */
+	--grey-bgc-shadow: 0rem 0rem 0.21rem 0rem rgba(154,179,208,0.5);
+	--blue-bgc-shadow: 0rem 0.21rem 0.28rem 0rem rgba(11,102,204,0.5);
+
+	--bgc-button-gradientone: {/*渐变按钮 蓝—>深蓝*/
+		width: 8.8rem;
+		height: 1.066667rem;
+		text-align: center;
+		line-height: 1rem;
+		font-size: var(--g-xs-font-size);
+		color: #fff;
+		background: linear-gradient(90deg,rgba(95,177,255,1) 0%,rgba(92,139,241,1) 100%);
+		box-shadow: 0 .133333rem .213333rem 0 rgba(130,189,255,1);
+		border-radius:.6rem;
+	}
+	--bgc-button-gradienttwo: {/*渐变按钮 白—>灰蓝*/
+		width: 8.8rem;
+		height: 1.066667rem;
+		text-align: center;
+		line-height: 1rem;
+		background:linear-gradient(90deg,rgba(255,255,255,1) 0%,rgba(222,238,255,1) 100%);
+		box-shadow: 0 .133333rem .213333rem 0 rgba(11,102,204,1);
+		border-radius:.6rem;
+	}
+
+	--box: { /* 容器样式 */
+		color: var(--g-color-black);
+		background-color: #fff;
+		border-radius: var(--g-border-radius);
+	}
+
+	--btn: { /* 按钮公共样式 */
+		font-size: var(--g-lg-font-size);
+	}
+
+	--title-levelone: {/*标题 团餐么*/	
+		font-size:.693333rem;
+		font-weight: 700;
+		color:var(--font-color-title);
+		padding-left: .413333rem;
+	}
+	--nav-bar:{
+		font-size: .426667rem;
+		color:var(--font-color-title);
+	}
+}

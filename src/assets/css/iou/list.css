@@ -1,0 +1,49 @@
+/*
+* @name:
+* @description:
+* @Author: huifen.ling
+* @Date: 2018-10-07 18:54:55
+ * @Last Modified by: huifen.ling
+ * @Last Modified time: 2018-10-15 16:58:02
+*/
+@charset 'utf-8';
+@import '../root.css';
+
+.scroll-wrap {
+  height: 100%;
+  background-color: var(--bgc-white);
+  overflow: hidden;
+}
+/* wrap */
+.iou-wrap {
+  height: 100%;
+  background-color: var(--bgc-white);
+}
+/* header */
+.iou-hd {
+  background: no-repeat center;
+  background-size: cover;
+}
+.back-icon {
+  height: .46rem;
+}
+.hd-title {
+  margin: .25rem 0 .75rem;;
+  font-weight: 800;
+  font-size: var(--g-lg-title);
+  line-height: var(--g-lg-title);
+}
+/* content */
+.iou-content {
+  padding: 0 .41rem;
+  line-height: 0;
+}
+.content-nav {
+  margin: .13rem 0 .31rem;
+  color: var(--g-color-black);
+  font-size: .51rem;
+  line-height: .71rem;
+}
+.no-data {
+  color: var(--g-color-black);
+}

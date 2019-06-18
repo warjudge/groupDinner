@@ -1,0 +1,83 @@
+/*
+* @name:
+* @description:
+* @Author: huifen.ling
+* @Date: 2018-10-08 11:24:05
+ * @Last Modified by: huifen.ling
+ * @Last Modified time: 2018-10-15 15:47:44
+*/
+@charset 'utf-8';
+
+@import '..//root.css';
+.iou-item-box {
+  margin-bottom: .27rem;
+  padding: 0 .4rem .33rem;
+  font-size: var(--g-sm-font-size);
+  line-height: .44rem;
+}
+.iou-number {
+  display: flex;
+  padding: .33rem 0 .21rem;
+  color: var(--g-color-grey);
+}
+.number {
+  vertical-align: middle;
+}
+.iou-label {
+  flex: 1;
+  text-align: right;
+}
+
+.content-company {
+  font-size: var(--g-font-size);
+  line-height: .53rem;
+  margin-bottom: .24rem;
+}
+
+.iou-amount-box {
+  display: flex;
+  margin-bottom: .36rem;
+  align-items: center;
+}
+.icon-item {
+  flex: 1;
+  text-align: right;
+}
+.amount-item {
+  flex: 0 0 1.9rem;
+  margin-right: .05rem;
+}
+.amount-title {
+  font-size: var(--g-sm-font-size);
+  line-height: .44rem;
+  margin-bottom: .07rem;
+}
+.amount {
+  font-size: var(--g-md-font-size);
+  line-height: .49rem;
+  font-weight: 900;
+} 
+
+.item-footer {
+  display: flex;
+  margin-top: .27rem;
+  align-items: center;
+}
+.payer-info {
+  flex: 1;
+  margin-right: .4rem;
+}
+.date-info {
+  font-size: var(--g-sm-font-size);
+  color: var(--g-color-grey);
+  line-height: .45rem;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-btn:not(:last-child) {
+  margin-right: .27rem;
+}

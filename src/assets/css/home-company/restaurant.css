@@ -1,0 +1,46 @@
+/*
+* @name:
+* @description:
+* @Author: huifen.ling
+* @Date: 2018-10-09 17:41:02
+ * @Last Modified by: huifen.ling
+ * @Last Modified time: 2018-10-10 20:21:33
+*/
+@charset 'utf-8';
+
+.restaurant-box {
+  padding: .4rem;
+  margin-bottom: .27rem; 
+}
+.restaurant-title {
+  font-size: .45rem;
+  font-weight: 600;
+  line-height: .64rem;
+  color: var(--g-color-dark-black);
+}
+.restaurant-info {
+  display: flex;
+}
+
+.restaurant-time {
+  width: 3rem; /* 防止width: auto导致子元素内容过多撑宽元素 */
+  flex: 1;
+}
+
+.shop-hours {
+  margin-bottom: .18rem;
+  line-height: .53rem;
+}
+
+.order-time {
+  color: var(--g-color-grey);
+  font-size: var(--g-sm-font-size);
+  line-height: .44rem;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+}
+.order-time-item {
+  flex: 1;
+}

@@ -1,0 +1,267 @@
+@import './root.css';
+html,body,#app {
+  height: 100%;
+}
+
+#app {
+  font-size: var(--g-font-size);
+  color: var(--g-color-white);
+  word-break: break-all; /* 允许单词内断开 */
+}
+
+/* 标签样式 */
+
+.wrap {
+  height: 100%;
+}
+
+.x_icon{
+  fill: var(--font-color-title);
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: rgba(165,207,255,1);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: rgba(165,207,255,1);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: rgba(165,207,255,1);
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(165,207,255,1);
+}
+/*vux组件默认样式修改*/
+.weui-cells.vux-no-group-title{
+	border-top-right-radius: .373333rem;
+}
+.weui-cells.vux-no-group-title .weui-cell{
+	border-top-right-radius: .373333rem;
+}
+.vux-x-switch.weui-cell.weui-cell_switch{
+  height: 1.32rem;
+}
+.weui-cell__ft .weui-switch{
+  vertical-align: middle;
+}
+.weui-cells.vux-no-group-title{
+	margin: 0;
+	height: 1.32rem;
+}
+.special .weui-cells.vux-no-group-title{
+	margin: 0;
+	height: 1.866667rem;
+}
+.special_order .weui-cells.vux-no-group-title{
+  margin: 0;
+  height: 1.866667rem;
+}
+.special_order .weui-cells.vux-no-group-title:after{
+  border:none;
+}
+.special_order div.weui-cell__ft{
+  font-size: .64rem;
+  color: #27C06B;
+  line-height:.893333rem;
+}
+.special_order div.weui-cell__ft .desc_right{
+  font-size: .293333rem;
+  color: #777;
+  line-height: .4rem;
+}
+.special_order .weui-cell.vux-tap-active.weui-cell_access{
+  padding: 0;
+}
+.weui-cells.vux-no-group-title:before{
+  border:none;
+}
+.vux-cell-box.weui-cell.sub-item:before{
+  border:none;
+}
+.vux-cell-box.weui-cell.sub-item{
+  color: #444;
+}
+.vux-label{
+	font-size: .373333rem;
+	color: #444;
+}
+label.weui-label{
+	display: inline-block;
+	font-size: .373333rem;
+	color: #444;
+}
+.weui-cell__bd.weui-cell__primary input{
+  color: #333;
+  font-size: .373333rem;
+}
+.weui-input::-webkit-input-placeholder { 
+  font-size: .373333rem;
+	color: #bbb;
+}
+.weui-input:-moz-placeholder { 
+  font-size: .373333rem;
+	color: #bbb;
+}
+.weui-input::-moz-placeholder { 
+  font-size: .373333rem;
+	color: #bbb;
+}
+.weui-input:-ms-input-placeholder { 
+  font-size: .373333rem;
+	color: #bbb;
+}
+.vux-cell-box.weui-cell.sub-item.vux-tap-active.weui-cell_access::before{
+	top: 100%;
+}
+.vux-popup-picker-placeholder.vux-cell-placeholder{
+	font-size: .373333rem;
+	color: #bbb;
+	line-height:.866666rem;
+}
+span.vux-label-desc{
+	font-size: .293333rem;
+	color: #444;
+}
+div.weui-cell__ft{
+	font-size: .373333rem;
+	color: #bbb;
+	line-height:.866666rem;
+}
+.success div.weui-cell__ft{
+  color: #27C06B;
+}
+.failure div.weui-cell__ft{
+  color: #F81557;
+}
+.normal div.weui-cell__ft{
+  color: #BBBBBB;
+}
+.weui-cell__ft.vux-cell-arrow-transition.vux-cell-arrow-down,.vux-popup-picker-value.vux-cell-value{
+	font-size: .373333rem;
+	color: #666;
+	line-height:.866666rem;
+}
+i.weui-loading{
+	display: block;
+	margin: 0 auto;
+}
+
+/* 基本样式 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.middle {
+  vertical-align: middle;
+}
+.no-data {
+  text-align: center;
+  line-height: 1.3rem;
+}
+.flex-item {
+  display: flex;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.icon-white {
+  fill: #fff;
+}
+.icon-grey {
+  fill: #777;
+}
+.forward-icon {
+  vertical-align: middle;
+}
+.red {
+  color: var(--g-color-red);
+}
+.green {
+  color: var(--g-color-green);
+}
+.blue {
+  color: var(--g-color-blue);
+}
+.tabs {
+  display: flex;
+  padding: 0 2.29rem;
+  margin-bottom: .53rem;
+  justify-content: space-around;
+  color: #fff;
+}
+.tab {
+  position: relative;
+  text-align: center;
+  font-size: var(--g-lg-font-size);
+  line-height: .6rem;
+  &.selected {
+    font-weight: 600;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -0.2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: .67rem;
+      height: .07rem;
+      background-color: #fff;
+    }
+  }
+}
+/* button公共样式 */
+.text-btn {
+  @apply --btn;
+  color: var(--g-color-black);
+}
+.default-btn {
+  @apply --btn;
+  padding: 0 .31rem;
+  line-height: .67rem;
+  font-size: var(--g-sm-font-size);
+  border: 1px solid #c2c2c2;
+  border-radius: .35rem;
+}
+.primary-btn {
+  @apply --btn;
+  @apply --bgc-button-gradientone;
+  width: 100%;
+  color: #fff;
+}
+
+/* 组件common */
+
+.white-bgc-box { /* 白底盒子容器样式 */
+  @apply --box;
+  box-shadow: var(--grey-bgc-shadow);
+}
+
+.blue-bgc-box { /* 蓝底盒子容器样式 */
+  @apply --box;
+  box-shadow: var(--blue-bgc-shadow);
+}
+
+.hd-bg {
+  position: relative;
+  padding-bottom: 1.2rem;
+  z-index: 10;
+  background: linear-gradient(180deg, rgba(187,228,255,1) 0%,#2C91FF 100%);
+  background-origin: content-box;
+  background-clip: content-box;
+  & > * {
+    position: relative;
+    z-index: 10;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 1px; /* 在chrome的iphone上会有1px间隙 */
+    z-index: -10;
+    width: 100%;
+    height: 1.2rem;
+    border-radius: 50% / 0 0 100% 100%;
+    background: linear-gradient(180deg, #2C91FF 0%, rgba(21, 131, 255, 1) 100%);
+  }
+}
