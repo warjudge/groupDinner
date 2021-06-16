@@ -12,7 +12,7 @@
   "dependencies": {
     "better-scroll": "^1.13.2",
     "fastclick": "^1.0.6",
-    "postcss": "^7.0.4",
+    "postcss": "^7.0.36",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^2.1.1",
